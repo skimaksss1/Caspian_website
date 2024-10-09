@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ul.style.display = ul.style.display === 'flex' ? 'none' : 'flex';
             // Изменяем цвет текста для элементов li внутри ul
             ul.querySelectorAll('li').forEach(li => {
-                li.style.color = 'red'; // Здесь можно заменить 'red' на нужный цвет
+                // li.style.color = 'red'; // Здесь можно заменить 'red' на нужный цвет
             });
         }
     });

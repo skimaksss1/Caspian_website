@@ -1899,6 +1899,9 @@ header .mobile_nav {
   text-align: center;
   display: block;
 }
+.about_content .about_s4 {
+  padding: 25px 0;
+}
 .about_content .about_s4 .quote_wrapper {
   display: flex;
   gap: 50px;

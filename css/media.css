@@ -16,6 +16,31 @@
   footer .footer_wrapper {
     gap: 100px;
   }
+  .about_content .about_s1 .projects_list {
+    flex-wrap: wrap;
+  }
+  .about_content .about_s2 {
+    padding: 30px 20px;
+  }
+  .about_content .about_s2 .target_title {
+    font-size: 14px;
+  }
+  .about_content .about_s2 .target_desc {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .about_content .about_s5 .staff_card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about_content .about_s5 .staff_card .card {
+    width: 500px;
+    max-width: 100%;
+    height: 375px;
+  }
+  .about_content .about_s5 .staff_card .card .card_photo {
+    height: 300px;
+  }
 }
 @media (max-width: 1000px) {
   .container {
@@ -170,11 +195,11 @@
     height: 200px;
   }
   .projects .projects_list .project_item .gradient {
-    padding: 25px 20px;
+    padding: 20px 15px;
     background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
   }
   .projects .projects_list .project_item .gradient .wrapper_info h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .projects .projects_list .project_item .gradient .wrapper_info p {
     font-size: 10px;
@@ -203,14 +228,23 @@
     height: calc(100% - 300px); /* 600px = 3 * 200px (ширина остальных блоков) */
     transition: 0.5s all ease;
   }
+  .about_s4 .quote_wrapper {
+    gap: 25px;
+    flex-direction: column;
+  }
+  .about_s4 .quote_wrapper .quote_photo {
+    width: 100% !important;
+    background-position: center center;
+  }
   .project_info {
     height: 50vh;
   }
   .project_info .info {
     gap: 5px !important;
+    bottom: 30px !important;
   }
   .project_info .info h2 {
-    font-size: 24px !important;
+    font-size: 20px !important;
     line-height: 24px;
   }
   .project_info .info p {
