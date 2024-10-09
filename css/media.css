@@ -135,6 +135,7 @@
     padding: 10px 0;
     border-bottom: 1px solid #721423;
     font-weight: 700;
+    font-size: 12px;
   }
   header .mobile_nav .right_nav .dropdown_lang2 ul a li {
     font-weight: 700;
@@ -148,6 +149,13 @@
   }
   header .mobile_nav .right_nav .dropdown_lang2.active {
     display: block;
+  }
+  header .mobile_nav .right_nav .lang_active2 {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
   .left_header ul {
     gap: 10px;
