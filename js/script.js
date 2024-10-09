@@ -44,6 +44,28 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
   
+
+  document.querySelectorAll('.li_projects, .li_trd, .li_dev, .li_soc').forEach(item => {
+    item.addEventListener('click', function(event) {
+        event.stopPropagation(); // Останавливаем всплытие события
+        const ul = this.querySelector('ul');
+        if (ul) {
+            ul.style.display = ul.style.display === 'flex' ? 'none' : 'flex';
+        }
+    });
+});
+
+document.querySelector('.bar').addEventListener('click', function() {
+    const leftHeaderMob = document.querySelector('.left_header_mob');
+    leftHeaderMob.style.display = leftHeaderMob.style.display === 'flex' ? 'none' : 'flex';
+});
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.btn_header').addEventListener('click', function() {
         document.querySelector('.news_modal_window').style.display = 'flex';
@@ -91,6 +113,23 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('click', hideDropdown);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const langActive = document.querySelector('.lang_active2');
+    const dropdownLang = document.querySelector('.dropdown_lang2');
+
+    function toggleDropdown() {
+        dropdownLang.classList.toggle('active');
+    }
+
+    function hideDropdown(event) {
+        if (!dropdownLang.contains(event.target) && !langActive.contains(event.target)) {
+            dropdownLang.classList.remove('active');
+        }
+    }
+
+    langActive.addEventListener('click', toggleDropdown);
+    document.addEventListener('click', hideDropdown);
+});
 
 let lastClickedBlock = null;
 
