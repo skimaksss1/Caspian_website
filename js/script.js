@@ -45,12 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
 
-  document.querySelectorAll('.li_projects, .li_trd, .li_dev, .li_soc').forEach(item => {
+  document.querySelectorAll('.li_projects, .li_trd, .li_prv, .li_dev, .li_soc').forEach(item => {
     item.addEventListener('click', function(event) {
         event.stopPropagation(); // Останавливаем всплытие события
         const ul = this.querySelector('ul');
         if (ul) {
             ul.style.display = ul.style.display === 'flex' ? 'none' : 'flex';
+            // Изменяем цвет текста для элементов li внутри ul
+            ul.querySelectorAll('li').forEach(li => {
+                li.style.color = 'red'; // Здесь можно заменить 'red' на нужный цвет
+            });
         }
     });
 });
