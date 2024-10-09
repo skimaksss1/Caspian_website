@@ -202,16 +202,6 @@
         }
     } 
     .general{
-        height: 50vh;
-        .info{
-            gap: 5px;
-            h2{
-                font-size: 24px;
-            }
-            p{
-                font-size: 12px;
-            }
-        }
         .cards{
             flex-direction: column;
             .block{
@@ -235,6 +225,20 @@
             }
         }
     } 
+    
+    .project_info{
+        height: 50vh;
+        .info{
+            gap: 5px !important;
+            h2{
+                font-size: 24px !important;
+                line-height: 24px;
+            }
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
     footer{
         .footer_wrapper{
             flex-direction: column;

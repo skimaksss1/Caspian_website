@@ -182,18 +182,6 @@
   .left_header ul {
     gap: 10px;
   }
-  .general {
-    height: 50vh;
-  }
-  .general .info {
-    gap: 5px;
-  }
-  .general .info h2 {
-    font-size: 24px;
-  }
-  .general .info p {
-    font-size: 12px;
-  }
   .general .cards {
     flex-direction: column;
   }
@@ -214,6 +202,19 @@
     width: 100%;
     height: calc(100% - 300px); /* 600px = 3 * 200px (ширина остальных блоков) */
     transition: 0.5s all ease;
+  }
+  .project_info {
+    height: 50vh;
+  }
+  .project_info .info {
+    gap: 5px !important;
+  }
+  .project_info .info h2 {
+    font-size: 24px !important;
+    line-height: 24px;
+  }
+  .project_info .info p {
+    font-size: 12px !important;
   }
   footer .footer_wrapper {
     flex-direction: column;
