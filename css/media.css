@@ -13,6 +13,9 @@
     font-size: 10px;
     line-height: 16px;
   }
+  footer .footer_wrapper {
+    gap: 100px;
+  }
 }
 @media (max-width: 1000px) {
   .container {
@@ -157,8 +160,39 @@
     align-items: center;
     gap: 5px;
   }
+  .projects {
+    padding: 30px 0;
+  }
+  .projects .projects_list {
+    gap: 20px;
+  }
+  .projects .projects_list .project_item {
+    height: 200px;
+  }
+  .projects .projects_list .project_item .gradient {
+    padding: 25px 20px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+  }
+  .projects .projects_list .project_item .gradient .wrapper_info h2 {
+    font-size: 20px;
+  }
+  .projects .projects_list .project_item .gradient .wrapper_info p {
+    font-size: 10px;
+  }
   .left_header ul {
     gap: 10px;
+  }
+  .general {
+    height: 50vh;
+  }
+  .general .info {
+    gap: 5px;
+  }
+  .general .info h2 {
+    font-size: 24px;
+  }
+  .general .info p {
+    font-size: 12px;
   }
   .general .cards {
     flex-direction: column;
@@ -180,5 +214,27 @@
     width: 100%;
     height: calc(100% - 300px); /* 600px = 3 * 200px (ширина остальных блоков) */
     transition: 0.5s all ease;
+  }
+  footer .footer_wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .footer_wrapper .title_footer {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  footer .footer_wrapper .contacts_footer {
+    text-align: center;
+  }
+  footer .footer_wrapper .logo_footer {
+    text-align: center;
+  }
+  footer .footer_wrapper ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer .footer_wrapper ul li {
+    text-align: center;
   }
 }/*# sourceMappingURL=media.css.map */

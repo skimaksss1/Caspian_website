@@ -202,6 +202,9 @@ header .nav .logo {
   top: 0;
   cursor: pointer;
 }
+header .mobile_nav {
+  display: none;
+}
 
 .general {
   height: calc(100vh - 60px);
@@ -223,7 +226,6 @@ header .nav .logo {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-position: center center;
 }
 .general .block h2 {
   color: #fff;
@@ -372,6 +374,7 @@ header .nav .logo {
   width: 100%;
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 .project_info .gradient {
   position: absolute;

@@ -210,6 +210,9 @@ header{
             cursor: pointer;
         }
     }
+    .mobile_nav{
+        display: none;
+    }
 }
 .general {
     height: calc(100vh - 60px);
@@ -231,7 +234,6 @@ header{
         align-items: center;
         justify-content: center;
         gap: 10px;
-        background-position: center center;
         h2{
             color: #fff;
             font-weight: 400;
@@ -385,6 +387,7 @@ header{
     width: 100%;
     background-size: cover;  
     background-position: center center;
+    position: relative;
     .gradient{
         position: absolute;
         bottom: 0;
