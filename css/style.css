@@ -970,6 +970,30 @@ header .mobile_nav {
 .projects .project_content-3 .slider .swiper .ar_slide5 {
   background-image: url(../img/projects/arbat/5.png);
 }
+.projects .project_content-3 .slider .swiper .ga_slide1 {
+  background-image: url(../img/projects/gate/1.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide2 {
+  background-image: url(../img/projects/gate/2.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide3 {
+  background-image: url(../img/projects/gate/3.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide4 {
+  background-image: url(../img/projects/gate/4.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide5 {
+  background-image: url(../img/projects/gate/5.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide6 {
+  background-image: url(../img/projects/gate/6.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide7 {
+  background-image: url(../img/projects/gate/7.png);
+}
+.projects .project_content-3 .slider .swiper .ga_slide8 {
+  background-image: url(../img/projects/gate/8.png);
+}
 .projects .project_content-3 .slider .swiper .ka_slide1 {
   background-image: url(../img/projects/karasu/1.png);
 }
@@ -3048,11 +3072,11 @@ header .mobile_nav {
   top: 0;
 }
 .alatau_s3 .map_dots .circle_5 {
-  right: calc(28% - 170px);
-  top: calc(50% - 170px);
+  right: calc(28% - 225px);
+  top: calc(50% - 225px);
   position: absolute;
-  width: 340px;
-  height: 340px;
+  width: 440px;
+  height: 440px;
   border: dashed 1px #721423;
   border-radius: 100%;
   display: flex;
@@ -3072,8 +3096,8 @@ header .mobile_nav {
   }
 }
 .alatau_s3 .map_dots .circle_5 .circle_4 {
-  width: 280px;
-  height: 280px;
+  width: 360px;
+  height: 360px;
   border: dashed 1px #721423;
   border-radius: 100%;
   display: flex;
@@ -3093,8 +3117,8 @@ header .mobile_nav {
   }
 }
 .alatau_s3 .map_dots .circle_5 .circle_4 .circle_3 {
-  width: 220px;
-  height: 220px;
+  width: 280px;
+  height: 280px;
   border: dashed 1px #721423;
   border-radius: 100%;
   display: flex;
@@ -3114,8 +3138,8 @@ header .mobile_nav {
   }
 }
 .alatau_s3 .map_dots .circle_5 .circle_4 .circle_3 .circle_2 {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border: dashed 1px #721423;
   border-radius: 100%;
   display: flex;
@@ -3135,8 +3159,8 @@ header .mobile_nav {
   }
 }
 .alatau_s3 .map_dots .circle_5 .circle_4 .circle_3 .circle_2 .circle_1 {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border: dashed 1px #721423;
   border-radius: 100%;
   display: flex;
